@@ -81,9 +81,5 @@ resource "aws_security_group" "allow_http" {
 
 }
 
-resource "aws_instance" "test_ec21"{
-   ami          ="ami-0a3277ffce9146b74"
-   instance_type="t2.micro"
-   
-}
+
 
